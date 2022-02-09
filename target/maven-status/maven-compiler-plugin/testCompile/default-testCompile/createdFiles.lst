@@ -1,0 +1,5 @@
+com\salesforce\test\login\LoginTest.class
+com\salesforce\base\BaseTest.class
+com\salesforce\pages\homepage\HomePage.class
+com\salesforce\test\usermenu\UserMenuTest.class
+com\salesforce\pages\loginpage\LoginPage.class

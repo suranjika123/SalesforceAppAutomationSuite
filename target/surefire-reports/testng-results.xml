@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T21:16:34 EST" name="SalesforceAppSuite" finished-at="2022-02-08T21:17:32 EST" duration-ms="58019">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T21:16:34 EST" name="Regression" finished-at="2022-02-08T21:17:32 EST" duration-ms="58019">
+      <class name="com.salesforce.test.login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:34 EST" name="setUp" finished-at="2022-02-08T21:16:34 EST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:34 EST" name="initialSetUp" finished-at="2022-02-08T21:16:40 EST" duration-ms="6074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.login.LoginTest.emptyPasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="emptyPasswordTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:40 EST" name="emptyPasswordTest" finished-at="2022-02-08T21:16:41 EST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:41 EST" name="tearDown" finished-at="2022-02-08T21:16:42 EST" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyPasswordTest status=SUCCESS method=LoginTest.emptyPasswordTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:42 EST" name="initialSetUp" finished-at="2022-02-08T21:16:46 EST" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.login.LoginTest.forgotPasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="forgotPasswordTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:46 EST" name="forgotPasswordTest" finished-at="2022-02-08T21:16:48 EST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:48 EST" name="tearDown" finished-at="2022-02-08T21:16:48 EST" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordTest status=SUCCESS method=LoginTest.forgotPasswordTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:48 EST" name="initialSetUp" finished-at="2022-02-08T21:16:53 EST" duration-ms="4292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.login.LoginTest.invalidLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:53 EST" name="invalidLoginTest" finished-at="2022-02-08T21:16:54 EST" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:54 EST" name="tearDown" finished-at="2022-02-08T21:16:55 EST" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:55 EST" name="initialSetUp" finished-at="2022-02-08T21:16:59 EST" duration-ms="4451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.login.LoginTest.rememberMeLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="rememberMeLoginTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:16:59 EST" name="rememberMeLoginTest" finished-at="2022-02-08T21:17:05 EST" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rememberMeLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:17:05 EST" name="tearDown" finished-at="2022-02-08T21:17:05 EST" duration-ms="675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rememberMeLoginTest status=SUCCESS method=LoginTest.rememberMeLoginTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:17:05 EST" name="initialSetUp" finished-at="2022-02-08T21:17:10 EST" duration-ms="4261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.login.LoginTest.validLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:17:10 EST" name="validLoginTest" finished-at="2022-02-08T21:17:13 EST" duration-ms="3692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:17:13 EST" name="tearDown" finished-at="2022-02-08T21:17:14 EST" duration-ms="842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:com.salesforce.test.login.LoginTest@24313fcc]" started-at="2022-02-08T21:17:32 EST" name="endUp" finished-at="2022-02-08T21:17:32 EST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- com.salesforce.test.login.LoginTest -->
+      <class name="com.salesforce.test.usermenu.UserMenuTest">
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:14 EST" name="initialSetUp" finished-at="2022-02-08T21:17:18 EST" duration-ms="4173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.usermenu.UserMenuTest.clickLogoutMenuTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method is-config="true" signature="launchHomePage()[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:18 EST" name="launchHomePage" finished-at="2022-02-08T21:17:21 EST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method signature="clickLogoutMenuTest()[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:21 EST" name="clickLogoutMenuTest" finished-at="2022-02-08T21:17:23 EST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogoutMenuTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:23 EST" name="tearDown" finished-at="2022-02-08T21:17:23 EST" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickLogoutMenuTest status=SUCCESS method=UserMenuTest.clickLogoutMenuTest()[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:23 EST" name="initialSetUp" finished-at="2022-02-08T21:17:27 EST" duration-ms="3850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.usermenu.UserMenuTest.userNavigationTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method is-config="true" signature="launchHomePage()[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:27 EST" name="launchHomePage" finished-at="2022-02-08T21:17:29 EST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePage -->
+        <test-method signature="userNavigationTest()[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:29 EST" name="userNavigationTest" finished-at="2022-02-08T21:17:31 EST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNavigationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c]" started-at="2022-02-08T21:17:31 EST" name="tearDown" finished-at="2022-02-08T21:17:32 EST" duration-ms="663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userNavigationTest status=SUCCESS method=UserMenuTest.userNavigationTest()[pri:0, instance:com.salesforce.test.usermenu.UserMenuTest@2df3b89c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.test.usermenu.UserMenuTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- SalesforceAppSuite -->
+</testng-results>
